@@ -15,5 +15,3 @@ function result(){
         output.value = 'Error';
     }
 }
-
-
