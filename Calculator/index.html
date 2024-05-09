@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table  >
+        <tbody>
+            <tr ><td colspan="4"><input type="text" class="displayInput" placeholder="0" readonly></td></tr>
+            
+            <tr>
+                <td><button onclick="display(7)">7</button>
+                <td><button onclick="display(8)">8</button>
+                <td><button onclick="display(9)">9</button>
+                <td><button onclick="display(' / ')">&divide;</button></td>
+                </tr>
+                
+                <tr>
+                
+                <td><button onclick="display(4)">4</button>
+                <td><button onclick="display(5)">5</button>
+                <td><button onclick="display(6)">6</button>
+                <td><button onclick="display(' * ')">&times;</button></td>
+            </tr>
+
+            <tr>
+                <td><button onclick="display(1)">1</button>
+                <td><button onclick="display(2)">2</button>
+                <td><button onclick="display(3)">3</button>
+                <td><button onclick="display(' - ')">&minus;</button></td>
+            </tr>
+            
+            <tr>
+                <td><button onclick="display(0)">0</button>
+                <td><button onclick="display(' . ')"class="decimal">.</button>
+                <td><button onclick="display(' + ')">&plus;</button></td>
+                <td><button onclick="result()" class="equal-to">&equals;</button>
+            </tr
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
